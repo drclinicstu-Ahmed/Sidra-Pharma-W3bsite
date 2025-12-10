@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا | شركة سدرة فارما للصناعات الدوائية</title>
+    <style>
+        /* ======================================= */
+        /* التنسيق الشامل (High Design CSS) */
+        /* ======================================= */
+        
+        /* الأساسيات والخطوط */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* خط حديث وواضح */
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8; /* خلفية فاتحة وهادئة */
+            color: #2c3e50; /* لون نص داكن وواضح */
+            line-height: 1.6;
+        }
+
+        /* شريط التنقل (Navbar) - أكثر تميزاً */
+        .navbar {
+            background-color: #1a5276; /* أزرق طبي عميق */
+            color: white;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky; 
+            top: 0;
+            z-index: 100;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 0 18px;
+            font-size: 18px; 
+            font-weight: 600;
+            transition: color 0.3s, background-color 0.3s;
+            border-radius: 4px;
+        }
+        .navbar a:hover {
+            color: #f39c12; /* أصفر (لتمييز الروابط) */
+        }
+        .logo {
+            font-size: 28px; 
+            font-weight: 900;
+        }
+
+        /* الأقسام الرئيسية */
+        .section {
+            padding: 80px 40px; 
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: right;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* العناوين الرئيسية */
+        .section h2 {
+            color: #1a5276; 
+            font-size: 38px;
+            margin-bottom: 25px;
+            border-bottom: 4px solid #3498db; 
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        /* تفاصيل الاتصال */
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .info-box {
+            background: #f8f8f8; /* خلفية خفيفة */
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 5px solid #3498db; /* شريط جانبي أزرق */
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            flex: 1;
+            min-width: 250px;
+            margin: 15px;
+            transition: transform 0.3s;
+        }
+        .info-box:hover {
+             transform: translateY(-3px);
+        }
+        .info-box h4 {
+            color: #27ae60; /* أخضر (للون العناوين) */
+            font-size: 20px;
+            margin-top: 0;
+        }
+        .info-box p {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        /* نموذج الاتصال */
+        .contact-form {
+             max-width: 600px;
+             margin: 0 auto;
+             text-align: right;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            font-size: 18px;
+            color: #1a5276;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 25px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box; 
+            font-size: 16px;
+        }
+        .contact-form textarea {
+            resize: vertical;
+        }
+        .contact-form button {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #2980b9;
+        }
+        
+        /* الفوتر */
+        footer {
+            background-color: #34495e; 
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 16px;
+            margin-top: 30px; 
+        }
+        footer p {
+             margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">سِـدْرَة فارما (Sidra Pharma)</div>
+        <div>
+            <a href="index.html">الرئيسية</a>
+            <a href="manufacturing.html">التصنيع والجودة</a>
+            <a href="products.html">المنتجات والمبيعات</a>
+            <a href="contact.html">اتصل بنا</a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <h2>معلومات الاتصال الرئيسية</h2>
+        <p style="font-size: 18px;">نحن دائماً على استعداد للإجابة على استفساراتكم وتلبية طلباتكم. تواصلوا معنا عبر القنوات التالية:</p>
+
+        <div class="contact-info">
+            <div class="info-box">
+                <h4>الموقع الرئيسي والإدارة</h4>
+                <p>المنطقة الصناعية - قطعة رقم (X)<br>المدينة، الدولة</p>
+                <p style="margin-top: 15px; font-weight: bold;">(العنوان الافتراضي لشركة سدرة)</p>
+            </div>
+            <div class="info-box">
+                <h4>للتواصل المباشر والاستفسارات</h4>
+                <p>📞 رقم الهاتف: *01009670793*</p>
+                <p>📧 البريد الإلكتروني: *ahm3d.clinical.stu@gmail.com*</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" style="border-bottom: none;">
+        <h2>أرسل لنا رسالة</h2>
+        <p style="font-size: 18px;">نرحب بجميع الاستفسارات عن المنتجات أو الشراكات الجديدة.</p>
+        
+        <form class="contact-form" action="#" method="POST">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">الموضوع:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">نص الرسالة:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">إرسال الرسالة الآن</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 شركة سدرة فارما للصناعات الدوائية. جميع الحقوق محفوظة.</p>
+        <p style="margin-top: 5px; font-size: 12px; color: #a0a0a0;">صاحب المشروع: أحمد ياسر صلاح، طالب بكلية الصيدلة.</p>
+    </footer>
+
+</body>
+</html>
